@@ -6,3 +6,20 @@
     text-decoration: none;
     background-color: black;
 }
+
+.header-profile{
+    height: 100vh;
+    width: 25%;
+}
+
+.header-profile .img-profile{
+    border-radius: 200px;
+}
+
+.col .cajauno{
+    height: 35%;
+}
+
+.cajados{
+    height: 75%;
+}
