@@ -4,22 +4,63 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    background-color: black;
+}
+
+:root{
+    --color-bg: #040b14;
+    --color-hover: #149ddd;
+}
+
+.contenedor{
+    background-color: var(--color-bg);
+    padding-right: 0 !important;
 }
 
 .header-profile{
     height: 100vh;
     width: 25%;
+    color: white;
 }
 
-.header-profile .img-profile{
-    border-radius: 200px;
-}
-
-.col .cajauno{
+.contenedor .header-profile .profile-box{
     height: 35%;
 }
 
-.cajados{
-    height: 75%;
+.contenedor .header-profile .navigation-box{
+    height: 65%;
+}
+
+.contenedor .header-profile .profile-box .socialnet i{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #202122;
+    border-radius: 50%;
+    color: white;
+}
+
+.contenedor .header-profile .profile-box .socialnet i:hover{
+    background-color: var(--color-hover);
+    transition: all .5s;
+}
+
+.contenedor .header-profile .navigation-box nav ul{
+    display: flex;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+.contenedor .header-profile .navigation-box nav li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-home{
+   width: 100%;
+   height: 100vh;
+   background-position: top left;
+    background-repeat: no-repeat;
+
+    /*Cubreme el tamaño del hero*/
+    object-fit: cover;
 }
