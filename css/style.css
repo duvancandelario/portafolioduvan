@@ -12,7 +12,9 @@
 }
 
 .contenedor{
-    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
     padding-right: 0 !important;
 }
 
@@ -66,4 +68,11 @@
 
     /*Cubreme el tamaño del hero*/
     object-fit: cover;
+}
+
+.contenedor .about{
+    display: flex;
+    justify-content: center;
+    color: red;
+    z-index: 1;
 }
