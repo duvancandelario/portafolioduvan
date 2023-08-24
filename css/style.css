@@ -148,3 +148,26 @@
     margin-left: 20px;
 }
 
+.contenedor .skills{
+    display: flex;
+    height: 80vh;
+    padding-top: 40px;
+    padding-left: 45px;
+    margin-left: 20%;
+    justify-content: flex-start ;
+    flex-direction: column;
+    color: 
+    #173b6c;
+    background-color: #f5f8fd;
+    z-index: 1;
+    
+}
+
+.contenedor .skills .grillaSkills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 100px;
+    padding-top: 80px;
+}
+
