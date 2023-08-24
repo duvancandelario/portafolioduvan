@@ -65,14 +65,86 @@
    height: 100vh;
    background-position: top left;
     background-repeat: no-repeat;
+    
 
     /*Cubreme el tamaño del hero*/
     object-fit: cover;
 }
 
-.contenedor .about{
+.textosHome{
+    color: white;
+    position: absolute;
     display: flex;
     justify-content: center;
-    color: red;
-    z-index: 1;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 33%;
+    text-shadow: 1px 1px 2px black;
+    
 }
+
+.textosHome .nombre-home{
+    font-size: 50px;
+}
+
+
+.contenedor .about{
+    display: flex;
+    height: 80vh;
+    padding-top: 40px;
+    padding-left: 45px;
+    margin-left: 20%;
+    justify-content: flex-start ;
+    flex-direction: column;
+    color: 
+    #173b6c;
+    z-index: 1;
+    
+}
+
+.contenedor .about p{
+   color: black;
+   padding: 10px 100px 30px 0px;
+}
+
+.contenedor .about .seccionImagenTitulo{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    gap: 70px;
+}
+
+.contenedor .about img{
+    width: 30%;
+}
+
+.contenedor .about .listasAbout{
+    display: flex;
+    gap: 150px;
+}
+
+.contenedor .about .listasAbout .listaAboutIzquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+.contenedor .about .listasAbout .listaAboutIzquierda li span{
+    margin-left: 20px;
+}
+
+.contenedor .about .listasAbout .listaAboutDerecha{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+.contenedor .about .listasAbout .listaAboutDerecha li span{
+    margin-left: 20px;
+}
+
