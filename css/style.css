@@ -150,9 +150,10 @@
 
 .contenedor .skills{
     display: flex;
-    height: 80vh;
+    height: 65vh;
     padding-top: 40px;
     padding-left: 45px;
+    padding-right: 50px;
     margin-left: 20%;
     justify-content: flex-start ;
     flex-direction: column;
@@ -165,9 +166,9 @@
 
 .contenedor .skills .grillaSkills{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 100px;
-    padding-top: 80px;
+    gap: 50px;
+    padding-top: 30px;
 }
-
+    
