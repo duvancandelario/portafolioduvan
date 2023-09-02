@@ -283,11 +283,11 @@
     }
     
     .contenedor header{
-        transform: translateX(-700%);
+        margin-left: -300%;
     }
     
     .contenedor input:checked + header{
-        transform: translateX(0);
+        margin-left: 0%;
         transition:all .8s;
         width: 100%;
     }
