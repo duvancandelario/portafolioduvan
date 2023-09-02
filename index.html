@@ -19,8 +19,11 @@
 
 <body>
     <div class="container-fluid d-flex contenedor">
-        <header class="d-flex flex-column p-4 header-profile">
 
+            <!--Creamos nuestro header en la seccio izquierda-->
+            <header class="d-flex flex-column p-4 header-profile">
+
+            <!--Seccion del header que contiene la foto y las redes sociales-->
             <div class="profile-box d-flex flex-column justify-content-center align-items-center">
                 <img src="assets/profile.jpg" alt="duvan" class="img-fluid rounded-circle" width="100px">
 
@@ -34,23 +37,24 @@
                 </div>
             </div>
 
+            <!--Seccion del header donde esta la lista con sus iconos-->
             <div class="navigation-box d-flex align-items-center">
 
-                <nav class="d-flex">
-                    <ul class="d-flex flex-column text-light fs-6 fw-bolder">
-                        <li><i class="fa-solid fa-house"></i>Inicio</li>
-                        <li><i class="fa-solid fa-user"></i>Acerca de mí</li>
-                        <li><i class="fa-solid fa-file"></i>Habilidades</li>
-                        <li><i class="fa-solid fa-book"></i>Experiencia Laboral</li>
-                        <li><i class="fa-solid fa-server"></i>Portafolio</li>
-                        <li><i class="fa-solid fa-envelope"></i>Contacto</li>
-                    </ul>
-                </nav>
-            </div>
+                    <nav class="d-flex">
+                        <ul class="d-flex flex-column text-light fs-6 fw-bolder">
+                            <li><i class="fa-solid fa-house"></i>Inicio</li>
+                            <li><i class="fa-solid fa-user"></i>Acerca de mí</li>
+                            <li><i class="fa-solid fa-file"></i>Habilidades</li>
+                            <li><i class="fa-solid fa-book"></i>Experiencia Laboral</li>
+                            <li><i class="fa-solid fa-server"></i>Portafolio</li>
+                            <li><i class="fa-solid fa-envelope"></i>Contacto</li>
+                        </ul>
+                    </nav>
+                </div>
 
-            <p>© Todos los derechos reservados</p>
-        </header>
-
+                <p>© Todos los derechos reservados</p>
+            </header>
+        <!--Seccion del Home-->
         <img src="assets/rever-home.png" alt="home" class=" img-home">
         
         <!--TEXTO DEL HOME-->
@@ -60,7 +64,7 @@
         </div>
         
 
-        
+        <!--Seccion de Acerca de mí-->
         <div class="about">
             <h2 class="about-title">Acerca de mí</h2>
 
@@ -75,6 +79,7 @@
                         <h3>DESARROLLADOR WEB</h3>
                         <p>Datos Personales</p>
                         
+                        <!--Seccion de la lista izquierda que contiene Cumpleaños, Sitio, entre otros-->
                         <div class="listasAbout">
                             <ul class="listaAboutIzquierda">
                                 <li><b>> Cumpleaños:</b><span>28 Mayo</span></li>
@@ -82,7 +87,8 @@
                                 <li><b>> Telefono:</b><span>3246685338</span></li>
                                 <li><b>> Ciudad:</b><span>Santa Marta</span></li>
                             </ul>
-
+                        
+                        <!--Seccion de la lista derecha que contiene Edad, Titulo, etc-->
                             <ul class="listaAboutDerecha">
                                 <li><b>> Edad:</b><span>26</span></li>
                                 <li><b>> Titulo:</b><span>Tecnico en Desarrollo Web</span></li>
@@ -90,13 +96,11 @@
                                 <li><b>> Freelance:</b><span>Disponible</span></li>
                             </ul>
                         </div>
-                            
-                    
-                        
                     </div>
                 </div>
         </div>
-        
+
+        <!--Seccion de Habilidades con Bootstrap-->
         <div class="skills">
             <h2 class="skills-title">Habilidades</h2>
 
@@ -136,6 +140,7 @@
 
         </div>
 
+        <!--Seccion Experiencia Laboral-->
         <div class="experienciaLaboral">
             <div>
                 <h2 class="experienciaLaboralTexto">Experiencia Laboral</h2>
@@ -163,6 +168,7 @@
             </div>
         </div>
 
+        <!--Seccion portafolio personal y empresarial-->
         <div class="portafolioDuvan">
             <h2>Portafolio Empresarial y Personal</h2>
 
@@ -178,7 +184,8 @@
                 <div>
                     <img src="/assets/junipeer.png" alt="">
                 </div>
-                <div>4</div>
+                <div><!--Creamos label que desplegara la barra de navegacion responsive-->
+                    
             </div>
         </div>
     </div>
