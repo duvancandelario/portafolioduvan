@@ -307,15 +307,15 @@
     .contenedor .about{
         width: 100%;
         margin: 0;
+        height: 105vh;
         padding: 20px 40px 20px 20px;
-        display: flex;
+        display: block;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
     .contenedor .about .seccionImagenTitulo{
-        display: flex;
-        flex-direction: column;
+        display: block;
         gap: 10px;
     }
 
