@@ -65,9 +65,9 @@
     gap: 10px;
 }
 
-.hero{
+.hero img{
     display: flex;
-    background-image: url(assets/rever-home.png);
+    background: url(/assets/rever-home.png);
     width: 100%;
     height: 100vh;
     background-position: top left;
