@@ -259,7 +259,7 @@
 
 /*SECCION DE RESPONSIVE*/
 
-@media(max-width: 767px){
+@media(max-width: 1080px){
 
     /*Ocultamos el header con el responsive*/
     .contenedor header{
