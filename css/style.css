@@ -283,12 +283,12 @@
     }
     
     .contenedor header{
-        transform: translateX(-300%);
+        transform: translateX(-700%);
     }
     
     .contenedor input:checked + header{
         transform: translateX(0);
-        transition:all .5s;
+        transition:all .8s;
         width: 100%;
     }
 
