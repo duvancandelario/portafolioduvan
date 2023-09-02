@@ -1,3 +1,5 @@
+@import url(/css/responsive.css);
+
 *{
     padding: 0;
     margin: 0;
@@ -60,12 +62,10 @@
 }
 
 .img-home{
-   width: 100%;
-   height: 100vh;
-   background-position: top left;
+    width: 100%;
+    height: 100vh;
+    background-position: top left;
     background-repeat: no-repeat;
-    
-
     /*Cubreme el tamaño del hero*/
     object-fit: cover;
 }
@@ -103,8 +103,8 @@
 }
 
 .contenedor .about p{
-   color: black;
-   padding: 10px 100px 30px 0px;
+    color: black;
+    padding: 10px 100px 30px 0px;
 }
 
 .contenedor .about .seccionImagenTitulo{
@@ -212,7 +212,7 @@
         z-index: 1;
     }
 
-    .contenedor .grillaPortafolio{
+.contenedor .grillaPortafolio{
         display: flex;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -223,7 +223,7 @@
 
     }
 
-    .contenedor .grillaPortafolio div{
+.contenedor .grillaPortafolio div{
         display: flex;
         border: solid 1px black;
         width: 400px;
@@ -231,9 +231,14 @@
         flex-wrap: wrap;
     }
 
-    .contenedor .grillaPortafolio div img{
+.contenedor .grillaPortafolio div img{
         width: 100%;
         height: 100%;
     }
 
-    
+
+/*SECCION DE RESPONSIVE*/
+
+@media(max-width: 767px){
+
+}
