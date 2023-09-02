@@ -301,4 +301,27 @@
     .contenedor .textosHome h1{
         font-size: 25px;
     }
+
+    /*SECCION ACERCA DE MÍ*/
+
+    .contenedor .about{
+        width: 100%;
+        margin: 0;
+        padding: 20px 40px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .contenedor .about .seccionImagenTitulo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contenedor .about .listasAbout{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 }
