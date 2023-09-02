@@ -283,7 +283,7 @@
     }
     
     .contenedor header{
-        transform: translateX(-200%);
+        transform: translateX(-300%);
     }
     
     .contenedor input:checked + header{
