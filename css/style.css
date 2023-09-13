@@ -67,10 +67,10 @@
 
 .hero img{
     display: flex;
-    background: url(/assets/rever-home.png);
+    background: url(/assets/foto-personal.jpeg);
     width: 100%;
     height: 100vh;
-    background-position: top left;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     /*Cubreme el tamaño del hero*/
@@ -118,14 +118,17 @@
     width: 100%;
     height: 40vh;
     display: flex;
+    padding-top: 30px;
     gap: 70px;
+    
 }
 
 .contenedor .about img{
-    width: 30%;
+    width: 200px;
 }
 
 .contenedor .about .listasAbout{
+    height: 100%;
     display: flex;
     gap: 150px;
     list-style: none;
@@ -311,9 +314,9 @@
     .contenedor .about{
         width: 100%;
         margin: 0;
-        height: 105vh;
+        height: 115vh;
         padding: 20px 40px 20px 20px;
-        display: block;
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -321,6 +324,14 @@
     .contenedor .about .seccionImagenTitulo{
         display: block;
         gap: 10px;
+        
+    }
+
+    .contenedor .about .seccionImagenTitulo .imagenDev{
+        border-radius: 10px;
+        display: flex;
+        margin-left: 25%;
+        padding-bottom: 20px;
     }
 
     .contenedor .about .listasAbout{
@@ -365,12 +376,20 @@
         margin: 0;
     }
 
+    .contenedor .grillaExperiencia{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 50px;
+        padding-top: 30px;
+    } 
+
     .contenedor .portafolioDuvan{
         display: flex;
         width: 100%;
         height: 100%;
         flex-direction: column;
-        padding: 20px 40px 20px 20px;   
+        padding: 20px 20px 20px 20px;   
         margin: 0;
     }
 }
