@@ -123,8 +123,12 @@
     
 }
 
-.contenedor .about img{
+.contenedor .about .seccionImagenTitulo .seccionImagen .imagenDev{
     width: 200px;
+    box-shadow:  7px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 7px 20px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 7px 20px 0px rgba(0,0,0,0.75);
+border-radius: 10px;
 }
 
 .contenedor .about .listasAbout{
@@ -324,7 +328,7 @@
         width: 100%;
         height: 100%;
         flex-direction: column;
-        padding: 20px 40px 50px 20px;   
+        padding: 20px;   
         margin: 0;
     }
 
@@ -338,18 +342,32 @@
         justify-content: center;
         padding: 20px;   
         margin: 0;
+        gap: 20px;
         
     }
 
-    .contenedor .about .seccionImagenTitulo .imagenDev{
-        border-radius: 10px;
+    .contenedor .about .seccionImagenTitulo .seccionImagen{
+        width: 100%;
+        height: 100%;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .contenedor .about .seccionImagenTitulo .seccionImagen .imagenDev{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        box-shadow:  7px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 7px 20px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 7px 20px 0px rgba(0,0,0,0.75);
     }
 
     .contenedor .about .listasAbout{
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 10px;
         text-align: justify;
     }
 
