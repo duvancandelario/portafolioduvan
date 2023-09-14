@@ -57,12 +57,23 @@
     display: flex;
     gap: 30px;
     padding-left: 40px;
+    list-style: none;
 }
 
-.contenedor .header-profile .navigation-box nav li{
+.contenedor .header-profile .navigation-box nav li a{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.contenedor .header-profile .navigation-box nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor .header-profile .navigation-box nav ul a:hover{
+    color: var(--color-hover);
+    transition: all .5s;
 }
 
 .hero img{
